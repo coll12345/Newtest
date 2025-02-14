@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://t.me/HackerH_u_bb/10')).split()
+PICS = (environ.get('PICS', 'https://t.me/HackerH_u_bb')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5036765942').split()]
@@ -71,7 +71,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'api.modijiurl.com/api')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'api.modijiurl.com')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'b8902a9ded2641c9882574951a42b19eafce7eae')
 
      # Auto Delete For Group Message (Self Delete) #
