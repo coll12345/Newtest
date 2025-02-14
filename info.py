@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'LazyPrincess')
-API_ID = int(environ.get('API_ID', '13323016'))
-API_HASH = environ.get('API_HASH', '68e791e616100248b0a53ae86a661a12')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+SESSION = environ.get('SESSION', 'Null')
+API_ID = int(environ.get('API_ID', '24792758'))
+API_HASH = environ.get('API_HASH', '97b7af6fcde9a4236057ff1eb3093753')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7830703443:AAGj54NfH-jWlL68fyJdbDPC44_FBTlneI4")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/68d28011b2bc356b5db01.png')).split()
+PICS = (environ.get('PICS', 'https://t.me/HackerH_u_bb/10')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5036765942').split()]
