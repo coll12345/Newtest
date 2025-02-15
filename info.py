@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Null')
-API_ID = int(environ.get('API_ID', '24792758'))
-API_HASH = environ.get('API_HASH', '97b7af6fcde9a4236057ff1eb3093753')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7830703443:AAGj54NfH-jWlL68fyJdbDPC44_FBTlneI4")
+SESSION = environ.get('SESSION', 'unknown')
+API_ID = int(environ.get('API_ID', '20379905'))
+API_HASH = environ.get('API_HASH', '98db0b65b098172e95c80eea258a7fb2')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7830703443:AAGj54NfH-jWlL68fyJdbDPC44_FBTlneI4')
 
 #Port
 PORT = environ.get("PORT", "8080")
